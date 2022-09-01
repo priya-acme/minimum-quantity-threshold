@@ -62,7 +62,7 @@ try {
 $mail->SMTPDebug = 2;
     //Recipients
     $mail->setFrom('nick@eshopgenius.com', 'Sales Velocity');
-    $mail->addAddress('marketing@originalgaragemoto.com', 'Olivier');  
+    $mail->addAddress('priya@acmeintech.in', 'Olivier');  
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML

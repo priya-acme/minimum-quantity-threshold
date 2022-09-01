@@ -1,7 +1,7 @@
 <?php 
 
   //header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Cache-Control");
-  header('Access-Control-Allow-Origin: *');
+  /* header('Access-Control-Allow-Origin: *');
   header('Access-Control-Allow-Methods: GET, POST, PUT');
   // header('content-type: application/json; charset=utf-8');
 
@@ -45,5 +45,7 @@
       }
     }
   }
-  $Shopify->updateOrderTag($shop_url, $access_token, $id, $na_tags_value);
+  $Shopify->updateOrderTag($shop_url, $access_token, $id, $na_tags_value); 
+  */
+  echo "Minimum quantity threshold";
 ?>
